@@ -224,6 +224,7 @@ let bindSearchButton = () => {
     document.getElementById("valid_search").addEventListener("click", async (e) => {
         e.preventDefault();
         result_div.style.display = "flex";
+        result.innerHTML = `<img width="50px" src="load.svg" background="none">`
         let email_input = document.getElementById("email_input").value; // Retrieve current input value
         let url, res, data;
 

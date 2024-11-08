@@ -259,3 +259,9 @@ let blank_drop = (data) => {
     }
     result.innerHTML = str; // Display in result section
 };
+
+
+//copyright year change
+let currentyear = document.getElementById("copyYear")
+actualYera = new Date()
+currentyear.innerHTML = actualYera.getFullYear()

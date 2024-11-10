@@ -1,0 +1,1 @@
+A basic email and phone number validator website built with HTML, CSS, JavaScript, and API integration. This tool allows users to verify email addresses and phone numbers by simply entering them into the form. The website checks for formatting accuracy and validity, providing a quick and efficient validation experience.
